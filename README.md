@@ -50,7 +50,10 @@ GIF created with [LiceCap](https://www.cockos.com/licecap/) for Windows
 
 ## Notes
 
-I implemented a timeout feature if the API request took too long.
+1. Get a NASA API key from https://api.nasa.gov/
+2. Create a `.env` file in the root directory
+3. Add: VITE_API_KEY=your_key_here
+4. Run `npm install && npm run dev`
 
 ## License
 
