@@ -5,7 +5,7 @@ function App() {
   const [currentImage, setCurrentImage] = useState(null)
   const [banList, setBanList] = useState([])
   const [loading, setLoading] = useState(false)
-  const API_KEY = 'x6sVCV7Fp9HeUsKhMGXhaxPqjSyhYFO8gIFBa5qQ'
+  const API_KEY = import.meta.env.VITE_API_KEY
 
   // Fetch a random image from APOD by getting a date from the past
   const fetchRandomImage = useCallback(async () => {
